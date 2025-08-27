@@ -22,6 +22,10 @@ Automate the prioritization of the most recent vulnerabilities (CVEs) reported b
 ## AI Agent Function:
 The AI agent conducts realtime data ingestion from NIST (with API key) and enriches the data from EPSS (Exploit Prediction Scoring System) followed by conducting `asset impact`  and finally `auto-prioritizes` in realtime the  CVes for efficient remediation downstream.
 
+the AI agent begins by conducting real-time data ingestion from NIST, utilizing an API key. It then enriched the data from EPSS (Exploit Prediction Scoring System) before moving on to assess asset impact. 
+
+The AI agent concluded by performing real-time auto-prioritization using langchain, leading to streamlined CVE remediation for enhancing cybersecurity efforts.
+
 ## Pydot AI-Agent Graph Visualization (Basic)
 
 <img width="616" height="976" alt="image" src="https://github.com/user-attachments/assets/c8b17860-76b5-4039-a19e-e3e33f4bd00f" />
