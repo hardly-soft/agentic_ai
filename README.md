@@ -12,9 +12,8 @@
 
 
 ## Problem Statement
-```
 Automate the prioritization of the most recent vulnerabilities (CVEs) reported by NIST using the EPSS and enable Securitty teams to address the remediation of recent vulnerabilities with focused and timely remediation.
-```
+
 #### Notes
 1. There may be recent CVEs whose status is `Awaiting Analysis` : Security teams can proatively watch the CVEs and remediate when the analysis is completed by NIST.
 2. This prioritization helps timely remediation of CVEs which improves the overall compliance with Security Audits.
