@@ -17,14 +17,14 @@ Automate the prioritization of the most recent vulnerabilities (CVEs) reported b
 ```
 #### Notes
 1. There may be recent CVEs whose status is `Awaiting Analysis` : Security teams can proatively watch the CVEs and remediate when the analysis is completed by NIST.
-2. This prioritazation helps timely remediation of CVEswhich improves the overall compliance with Security Audits.
+2. This prioritization helps timely remediation of CVEs which improves the overall compliance with Security Audits.
 
 ## AI Agent Function:
 The AI agent conducts realtime data ingestion from NIST (with API key) and enriches the data from EPSS (Exploit Prediction Scoring System) followed by conducting `asset impact`  and finally `auto-prioritizes` in realtime the  CVes for efficient remediation downstream.
 
 the AI agent begins by conducting real-time data ingestion from NIST, utilizing an API key. It then enriched the data from EPSS (Exploit Prediction Scoring System) before moving on to assess asset impact. 
 
-The AI agent concluded by performing real-time auto-prioritization using langchain, leading to streamlined CVE remediation for enhancing cybersecurity efforts.
+The AI agent concludes by performing real-time auto-prioritization using langchain, leading to streamlined CVE remediation for enhancing cybersecurity efforts.
 
 ## Pydot AI-Agent Graph Visualization (Basic)
 
